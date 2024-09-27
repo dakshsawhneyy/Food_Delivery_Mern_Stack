@@ -7,7 +7,7 @@ export const StoreContext = createContext(null)
 const StoreContextProvider = (props) => {
 
     const [cartItems, setCartItems] = useState({})  //empty parenthesis means that cartItems is an empty object
-    const url = "http://localhost:5000"
+    const url = "https://food-delivery-mern-stack-backend.onrender.com"
     const [token, setToken] = useState("")
 
     const [food_list, setFood_list] = useState([])
